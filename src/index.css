@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 2px solid #b0e0de;
+  background-color: #aec8d1;
+}
+.navbar h1 {
+  color: #e65014;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #c793a3;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.heading {
+  margin: 15px;
+  display: flex;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.formDiv {
+  display: inline-block;
+  width: 30%;
+}
+
+
+
+.inputbox {
+  background-color: rgba(240, 248, 255, 0.968);
+  width: 100%;
+  padding: 6px 12px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.cards {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+  border-radius: 8px;
+  width: 25%;
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(177, 234, 223);
+}
+
+.cards:hover {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+.card2 {
+  margin: auto;
+  width: 40%;
+  transition: box-shadow 0.3s;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.card2:hover {
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.vgenre,
+vreleased,
+vactor {
+  font-size: 14px;
+  color: #555;
+}
+.card-button {
+  margin: 5px;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #aec8d1;
+  padding: 20px 0;
+  border-top: 2px solid #b0e0de;
+  text-align: center;
+  color: #333;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  margin-right: 1.5rem; /* Adjust gap between links */
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-link:hover {
+  color: #c793a3;
+}
+
+/* navbar style*/
+.nav-link {
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 7px 20px;
+  margin-right: 10px; /* Adjust spacing between links */
+  text-decoration: none;
+  transition: background-color 0.3s; /* Add transition for smooth color change */
+}
+
+.nav-link:hover {
+  background-color: darkblue; /* Change background color on hover */
+}
+
+.scrollable-container {
+  max-height: 90vh; /* Adjust the height as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
